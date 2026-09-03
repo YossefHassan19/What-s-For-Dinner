@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  scroll-padding: 4.5rem;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  scroll-padding: 4.5rem;
+  background-color: #FCF7E9;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.w-90 {
+  width: 90%;
+}
+.w-83 {
+  max-width: 83rem;
+}
+.w-3{
+  width: 3rem;
+}
+.h-3{
+  height: 3rem;
+}
+.w-2{
+  width: 2.5rem;
+}
+.h-2{
+  height: 2.5rem;
+}
+.w-1{
+  width: 1.5rem;
+}
+.h-1{
+  height: 1.5rem;
+}
+.mx-8 {
+  margin-inline: 7.5rem;
+}
+.py-32 {
+  padding-block: 2rem;
+}
+.p-40 {
+  padding: 2.5rem;
+}
+.fs-36 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.fs-24 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.fs-20 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.fs-18 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.fs-16 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.fs-14 {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.fs-12 {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+.text-brown {
+  color: #9F0712;
+}
+.text-orange {
+  color: #FF6900;
+}
+.text-orange-2 {
+  color: #F54A00;
+}
+.bg-primary {
+  background-color: #FFEDD4 !important;
+}
+.bg-red {
+  background-color: #FEF2F2;
+}
+.bg-orange {
+  background-color: #FF6900;
+}
+.bg-nuration {
+  background-color: #F9FAFB;
+}
+.bg-badge-1 {
+  color: oklch(0.527 0.154 150.069);
+  background-color: #DBFCE7;
+}
+.bg-badge-2 {
+  color: oklch(0.488 0.243 264.376);
+  background-color: #DBEAFE;
+}
+.border-orange {
+  border-color: #FF6900 !important;
+}
+.badge {
+  top: 3%;
+  left: 5%;
+}
+.bottom-left {
+  bottom: 5%;
+  left: 5%;
+}
+.right-side .nav-link {
+  border: none;
+}
+.right-side .nav .active {
+  color: #FF6900 !important;
+  border-bottom: 0.125rem solid #FF6900;
+  border-radius: 0;
+}
+.protein {
+  color: #155DFC;
+  background-color: #DBEAFE;
+}
+.carbohydrates {
+  color: #D08700;
+  background-color: #FEF9C2;
+}
+.fat {
+  color: #E7000B;
+  background-color: #FFE2E2;
+}
+.fiber {
+  color: #00A63E;
+  background-color: #DBFCE7;
+}
+.sodium {
+  color: #E60076;
+  background-color: #FCE7F3;
+}
+.btn-1 {
+  background: linear-gradient(to right, #FF6500, #FC3532);
+  padding: .75rem 1.5rem;
+  border-radius: .75rem;
+  transition: all .3s;
+}
+.btn-1:hover {
+  transform: scale(1.1);
+    background: linear-gradient(to right, #FC3532);
+}
